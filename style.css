@@ -1,0 +1,122 @@
+/* === Reset and Basics === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #0e0e0e;
+  color: #f0f0f0;
+  padding: 20px;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #1a1a1a;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 255, 204, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00ffe0;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #00ffe0;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* === Sections === */
+section {
+  margin-bottom: 40px;
+  background: #191919;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 255, 204, 0.08);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  color: #00ffe0;
+  margin-bottom: 10px;
+}
+
+section p, section li {
+  color: #e0e0e0;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* === Hire Me CTA === */
+.cta {
+  font-weight: bold;
+  color: #00ffae;
+  font-size: 1.1rem;
+  margin-top: 15px;
+}
+
+/* === Quote Block === */
+blockquote {
+  background: #111;
+  border-left: 5px solid #00ffe0;
+  padding: 15px;
+  font-style: italic;
+  color: #ccc;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* === AI Button Placeholder === */
+button {
+  display: inline-block;
+  padding: 12px 24px;
+  background: transparent;
+  color: #00ffe0;
+  border: 2px solid #00ffe0;
+  font-size: 1rem;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #00ffe0;
+  color: #000;
+}
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
